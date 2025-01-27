@@ -13,7 +13,7 @@ export const Privacy: React.FC = () => {
                             </div>
                             <div className='content'>
                                 <p className='mt-1' style={{ fontSize: "14px", color: "#fff" }}>
-                                    Welcome to [finuniquerummy] (referred to as “we,” “us,” or “our”). Your privacy is important to us. This Privacy Policy outlines how we collect, use, disclose, and safeguard your personal information when you visit our website and use our services. By accessing or using our services, you agree to the collection and use of information in accordance with this policy.
+                                    Welcome to [SevenUniqueRummy] (referred to as “we,” “us,” or “our”). Your privacy is important to us. This Privacy Policy outlines how we collect, use, disclose, and safeguard your personal information when you visit our website and use our services. By accessing or using our services, you agree to the collection and use of information in accordance with this policy.
                                 </p>
                             </div>
                         </div>

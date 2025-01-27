@@ -77,7 +77,7 @@ export const Footer: React.FC = () => {
               <p style={{fontSize:"14px"}}><i className="bi bi-telephone me-2"></i> 9660339514</p>
             </div>
             <div className="office_address mt-4">
-              <p style={{fontSize:"14px"}}><i className="bi bi-envelope me-2"></i> <a href="mailto:support@rummycircle.com">support@rummycircle.com</a></p>
+              <p style={{fontSize:"14px"}}><i className="bi bi-envelope me-2"></i> <a href="mailto:support@rummycircle.com">support@SevenUniqueRummy.com</a></p>
             </div>
           </div>
           <div className="col-md-3 px-3">
@@ -115,7 +115,7 @@ export const Footer: React.FC = () => {
           </div>
         </div>
         <div className="border-top border-secondary mt-4 pt-4 text-center">
-          <p className="mb-0">&copy; {new Date().getFullYear()} Finunique small pvt ltd. All rights reserved.</p>
+          <p className="mb-0">&copy; {new Date().getFullYear()} SevenUniqueRummy pvt ltd. All rights reserved.</p>
         </div>
       </div>
     </footer>
