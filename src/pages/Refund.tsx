@@ -13,7 +13,7 @@ export default function Refund() {
                             </div>
                             <div className='content'>
                                 <p className='mt-1' style={{ fontSize: "14px", color: "#fff" }}>
-                                    Welcome to [SevenUniqueRummy] (referred to as “we,” “us,” or “our”). Your privacy is important to us. This Refund Policy outlines how we collect, use, disclose, and safeguard your personal information when you visit our website and use our services. By accessing or using our services, you agree to the collection and use of information in accordance with this policy.
+                                    Welcome to SevenUniqueRummy . Your privacy is important to us. This Refund Policy outlines how we collect, use, disclose, and safeguard your personal information when you visit our website and use our services. By accessing or using our services, you agree to the collection and use of information in accordance with this policy.
                                 </p>
                             </div>
                         </div>
@@ -25,7 +25,7 @@ export default function Refund() {
                     <div className='col-md-12'>
                         <div className='heading'>
                             <h2 className='text-center'>Refund Policy</h2>
-                            <p className='text-center px-5' style={{ fontSize: "12px" }}>Finunique Small CENTERS - Service Terms & Conditions</p>
+                            <p className='text-center px-5' style={{ fontSize: "12px" }}>SevenUniqueRummy - Service Terms & Conditions</p>
                         </div>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ export default function Refund() {
                     </ul>
                     <h2 className='my-3'>Contact Us</h2>
                     <ul className='ps-3'>
-                        <li style={{ listStyleType: "circle" }}><p className='mb-0 mt-1'>If you have any questions about our refund policy, please reach out to our support team at  <a href="mailto:support@example.com" className="text-blue-500">support@example.com</a> </p></li>
+                        <li style={{ listStyleType: "circle" }}><p className='mb-0 mt-1'>If you have any questions about our refund policy, please reach out to our support team at  <a href="mailto:support@example.com" className="text-blue-500">support@SevenUniqueRummy.com</a> </p></li>
                     </ul>
 
                 </div>

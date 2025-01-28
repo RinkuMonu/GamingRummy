@@ -8,7 +8,7 @@ export const Navbar: React.FC = () => {
       <div className="container">
         <Link to="/" className="navbar-brand">
           <img 
-            src="./images/logo.jpg" 
+            src="https://www.sevenunique.com/assets/main_logo-V9CAEg8t.png" 
             alt="Finunique Logo" 
             height="64"
             className="py-2 d-inline-block align-top"
