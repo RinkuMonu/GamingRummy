@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Facebook, Twitter, Instagram, Mail, Phone, MapPin } from 'lucide-react';
+import logo from '/logo.png';
 
 export const Footer: React.FC = () => {
   return (
@@ -65,7 +66,7 @@ export const Footer: React.FC = () => {
           </div> */}
           <div className="col-md-2 px-3">
             <div className="logo_section">
-              <img src="https://www.sevenunique.com/assets/main_logo-V9CAEg8t.png" alt="Finunique Logo" height="64" className="mb-3" />
+              <img src={logo} alt="Finunique Logo" height="64" className="mb-3" />
             </div>
           </div>
           <div className="col-md-4 px-3">

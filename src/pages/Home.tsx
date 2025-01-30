@@ -28,7 +28,7 @@ export const Home: React.FC = () => {
                 <div className="inner-bx">
                   <div className="inner-card">
                     <div className="game-heading">
-                      <h4>Welcome Clasic Casino</h4>
+                      <h4>Welcome Clasic Rummy</h4>
                       <Link to="/games" className="btn description-link">
                         <div className="icon">
                           <i className='bi bi-arrow-right'></i>
@@ -48,7 +48,7 @@ export const Home: React.FC = () => {
                 <div className="inner-bx">
                   <div className="inner-card">
                     <div className="game-heading">
-                      <h4>Welcome Clasic Poker</h4>
+                      <h4>Welcome Call Break</h4>
                       <Link to="/games" className="btn description-link">
                         <div className="icon">
                           <i className='bi bi-arrow-right'></i>

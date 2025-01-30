@@ -7,8 +7,9 @@ import { Games } from './pages/Games';
 import { ResponsibleGaming } from './pages/ResponsibleGaming';
 import { Terms } from './pages/Terms';
 import { Privacy } from './pages/Privacy';
-import { GameTutorial } from './pages/GameTutorial';
+// import { GameTutorial } from './pages/GameTutorial';
 import Refund from './pages/Refund';
+import GameDescription from './components/GameDescription';
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
             <Route path="/terms" element={<Terms />} />
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/refund" element={<Refund />} />
-            <Route path="/game/:gameId" element={<GameTutorial />} />
+            {/* <Route path="/game/:gameId" element={<GameTutorial />} /> */}
+            <Route path="/game/:gameId" element={<GameDescription />} />
           </Routes>
         </main>
         <Footer />

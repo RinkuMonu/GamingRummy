@@ -13,10 +13,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .container {
-  padding-left: 0.75rem; 
-  padding-right: 0.75rem; 
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
-*{
+* {
   scroll-behavior: smooth;
   box-sizing: border-box;
   margin: 0;
@@ -187,10 +187,10 @@ body {
   background-size: cover;
   background-position: center;
   position: relative;
-.text-align{
-  width: 50%;
-  float: inline-end;
-}
+  .text-align {
+    width: 50%;
+    float: inline-end;
+  }
   .swiper {
     width: 100%;
     padding-top: 50px;
@@ -218,7 +218,7 @@ body {
   }
 }
 @media (max-width: 768px) {
-  .text-align{
+  .text-align {
     width: 100% !important;
     float: inline-end;
   }
@@ -334,14 +334,14 @@ body {
     }
   }
   .poker-game {
-    background-image: url("/public/images/poker.webp");
+    background-image: url("/public/img/rules.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #2b2f3b;
   }
   .casino-game {
-    background-image: url("/public/images/casino.webp");
+    background-image: url("/public/img/side-img.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -783,7 +783,7 @@ body {
     }
   }
 }
-.games_card_page_section{
+.games_card_page_section {
   position: relative;
   color: #fff;
   padding-top: 80px;
@@ -792,7 +792,7 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    width: 30%; 
+    width: 30%;
     height: 100%;
     background-image: url("/public/images/coin-bg3.png");
     background-size: cover;
@@ -800,65 +800,64 @@ body {
     z-index: 0;
     opacity: 0.6;
   }
-  .side-content{
-    .h2{
+  .side-content {
+    .h2 {
       font-size: 3rem;
     }
-    p{
+    p {
       font-size: 1.3rem;
     }
   }
 }
 @media (max-width: 768px) {
-  .games-section .heading span{
+  .games-section .heading span {
     font-size: 1.5rem;
   }
 }
 // //....................... Footer Section .................//
-.office_address{
+.office_address {
   line-height: 2;
-  p{
+  p {
     font-size: 20px;
   }
-  span{
+  span {
     font-size: 14px;
   }
 }
-.link_section{
-  ul{
-    li{
+.link_section {
+  ul {
+    li {
       line-height: 39px;
     }
   }
 }
-.bg-coins-1{
+.bg-coins-1 {
   position: absolute;
   width: 40px;
   left: 37px;
 }
-.bg-coins-2{
+.bg-coins-2 {
   position: absolute;
   width: 40px;
   right: 37px;
   bottom: 50%;
 }
 @media (max-width: 768px) {
-  .bg-coins-2{
+  .bg-coins-2 {
     bottom: 0px;
   }
-  
 }
 // //................ About Section ...........//
-.about_section{
+.about_section {
   padding-top: 80px;
-  background-image: url('/public/images/1738.jpg');
+  background-image: url("/public/images/1738.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;
   height: 450px;
-  .about_content{
+  .about_content {
     width: 60%;
-    .downloadBtn{
+    .downloadBtn {
       color: #fff;
       background-color: #cb0018;
       padding: 17px 45px;
@@ -866,43 +865,44 @@ body {
       border-radius: 30px;
       border: none;
       box-shadow: 0 7px 25px rgba(234, 1, 29, 0.2);
-      &:hover{
+      &:hover {
         background-color: #ac0216;
         border: none;
-        box-shadow: inset rgb(167 0 20 / 20%) 0px 117px 60px -25px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        box-shadow: inset rgb(167 0 20 / 20%) 0px 117px 60px -25px,
+          rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
       }
     }
   }
 }
-.about-content-section{
+.about-content-section {
   padding-top: 80px;
-  padding-bottom: 80px; 
-  background-image: url('/public/images/10016606_27269.webp');
+  padding-bottom: 80px;
+  background-image: url("/public/images/10016606_27269.webp");
   background-size: cover;
   background-position: center;
   color: #fff;
-  img.img-width{
+  img.img-width {
     width: 500px;
   }
 }
 // // ................... Responsible Game Section ......................//
-.responsible-game-section{
+.responsible-game-section {
   padding-top: 80px;
   padding-bottom: 80px;
-  background-image: url('/public/images/SL-9.webp');
+  background-image: url("/public/images/SL-9.webp");
   background-size: cover;
   background-position: center;
   color: #fff;
-  .responsible_content{
+  .responsible_content {
     font-weight: 600;
     margin-top: 50px;
 
-    h2.h2{
+    h2.h2 {
       font-weight: 900;
-      text-shadow:rgb(0 0 0) 20px -4px 4px;
+      text-shadow: rgb(0 0 0) 20px -4px 4px;
     }
   }
-  .downloadBtn{
+  .downloadBtn {
     color: #fff;
     background-color: #cb0018;
     padding: 17px 45px;
@@ -910,14 +910,109 @@ body {
     border-radius: 30px;
     border: none;
     box-shadow: 0 7px 25px rgba(234, 1, 29, 0.2);
-    &:hover{
+    &:hover {
       background-color: #ac0216;
       border: none;
-      box-shadow: inset rgb(167 0 20 / 20%) 0px 117px 60px -25px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      box-shadow: inset rgb(167 0 20 / 20%) 0px 117px 60px -25px,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     }
   }
 }
 // Privacy policy
-.privacypolicy_section{
+.privacypolicy_section {
   margin-top: 70px;
+}
+// Game Description
+.game_description {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-image: url("/public/images/rummygame.jpg");
+  background-size: cover;
+  background-position: right;
+  align-content: center;
+  background-attachment: fixed;
+  height: 93vh;
+}
+.game_description {
+  h1,
+  p {
+    font-weight: 900;
+    text-shadow: rgb(0, 0, 0) 20px -4px 4px;
+    padding: 0px 50px;
+  }
+  p {
+    width: 50%;
+  }
+}
+.next_section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-image: url(/public/images/jaqport-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  ul.details-list {
+    padding-left: 0px;
+    margin-top: 30px;
+    li {
+      color: #fff;
+      font-size: 1rem;
+      text-align: left;
+      position: relative;
+      z-index: 999;
+      list-style-type: none;
+      span {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        text-align: left;
+        position: relative;
+        z-index: 999;
+      }
+    }
+  }
+  .h2 {
+    font-weight: 600;
+    margin: 20px 0px;
+  }
+  .side-content,
+  .img {
+    margin: 60px 0px 30px;
+  }
+  .img {
+    img {
+      // height: 250px;
+      width: 100%;
+    }
+  }
+}
+.games-card {
+  box-shadow: 0 7px 25px rgb(15 22 51);
+}
+.gameplay_summary {
+  margin: 80px 0px;
+}
+.end_section {
+  .game-card {
+    padding: 2em 1.6em;
+    box-shadow: none;
+    transition: box-shadow 0.3s ease-out;
+    border-radius: 14px;
+    text-align: left;
+    box-shadow: 0 7px 25px rgb(15, 22, 51);
+    line-height: 30px;
+    position: relative;
+    &:hover {
+      background-color: #011436;
+      box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11);
+      color: #fff;
+    }
+    img{
+      position: absolute;
+      position: absolute;
+      width: 40px;
+      right: 0;
+  
+    }
+  }
 }

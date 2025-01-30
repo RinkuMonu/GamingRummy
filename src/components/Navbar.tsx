@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Menu } from 'lucide-react';
+import logo from '/logo.png';
 
 export const Navbar: React.FC = () => {
   return (
@@ -8,7 +9,7 @@ export const Navbar: React.FC = () => {
       <div className="container">
         <Link to="/" className="navbar-brand">
           <img 
-            src="https://www.sevenunique.com/assets/main_logo-V9CAEg8t.png" 
+            src={logo} 
             alt="Finunique Logo" 
             height="64"
             className="py-2 d-inline-block align-top"
