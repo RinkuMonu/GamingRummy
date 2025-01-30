@@ -1016,3 +1016,86 @@ body {
     }
   }
 }
+.login_page{
+  padding-top: 36px;
+  padding-bottom: 80px;
+  background-image: url(/public/images/jaqport-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  height: 100vh;
+
+  .loginBox{
+    padding: 40px;
+    color: #fff;
+    background-color: #021645;
+    border-radius: 13px;
+    width: 50%;
+    position: relative;
+    .login_deatils{
+      margin-top: 20px;
+      input{
+        font-size: 14px;
+      }
+      label{
+        font-size: 14px;
+      }
+    }
+    .heading{
+      h1{
+        font-size: 25px;
+      }
+    
+    }
+    .submitBtn{
+      button{
+        color: #fff;
+        background-color: #cb0018;
+        padding: 5px 45px;
+        border-radius: 4px;
+        border: none;
+        box-shadow: 0 7px 25px rgba(234, 1, 29, 0.2);
+      }
+    }
+    .redirectregister{
+      margin-top: 10px;
+      h4{
+        font-size: 14px;
+        position: absolute;
+        bottom: 12px;
+        right: 45px;    
+        a{
+          color: #fff;
+        }
+      }
+    }
+  }
+
+}
+.register_page{
+  padding: 40px;
+  color: #fff;
+  background-color: #021645;
+  border-radius: 13px;
+  width: 70%;
+  .heading{
+    h1{
+      font-size: 25px;
+
+    }
+  }
+  label{
+    font-size: 14px;
+  }
+  .submitBtn{
+    .registerBtn{
+      color: #fff;
+        background-color: #cb0018;
+        padding: 17px 45px;
+        border-radius: 4px;
+        border: none;
+        box-shadow: 0 7px 25px rgba(234, 1, 29, 0.2);
+    }
+  }
+}
