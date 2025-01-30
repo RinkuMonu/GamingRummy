@@ -39,7 +39,17 @@ export const Navbar: React.FC = () => {
             <li className="nav-item">
               <Link to="/responsible-gaming" className="nav-link">Responsible Gaming</Link>
             </li>
+            <li className="nav-item">
+            </li>
+            <li className="nav-item">
+            </li>
           </ul>
+        </div>
+        <div className="d-flex justify-content-center gap-2">
+        <Link to="/login" className="nav-link loginBtn">Login</Link>
+        <Link to="/register" className="nav-link loginBtn">Register</Link>
+
+
         </div>
       </div>
     </nav>
