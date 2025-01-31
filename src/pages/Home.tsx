@@ -48,7 +48,7 @@ export const Home: React.FC = () => {
                 <div className="inner-bx">
                   <div className="inner-card">
                     <div className="game-heading">
-                      <h4>Welcome Call Break</h4>
+                      <h4>Welcome Poker</h4>
                       <Link to="/games" className="btn description-link">
                         <div className="icon">
                           <i className='bi bi-arrow-right'></i>

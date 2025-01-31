@@ -71,9 +71,9 @@ export const Games: React.FC = () => {
                 <div className="game-body d-flex justify-content-between py-4">
                   <div className="game-name">
                     <span className="game_number">01.</span>
-                    <span className="game_item_title_text">Call Break</span>
+                    <span className="game_item_title_text">Poker</span>
                   </div>
-                  <Link to="/game/callbreak" className="link_icon">
+                  <Link to="/game/poker" className="link_icon">
                     <i className="bi bi-arrow-right"></i>
                   </Link>
                 </div>

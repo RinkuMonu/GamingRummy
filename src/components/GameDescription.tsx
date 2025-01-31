@@ -195,12 +195,12 @@ const gameData: Record<
     ],
     winning_img: "/images/rummy.png",
   },
-  callbreak: {
-    title: "Call Break",
+  poker: {
+    title: "Poker",
     description: `At Seven Unique Gaming, we strive to offer an exceptional gaming experience with round-the-clock customer support. Whether through our AI-powered chatbot, WhatsApp, social media channels, or direct email support, we ensure our users receive prompt assistance. Our Contact Us section also provides a hassle-free way to reach out for any queries or concerns.
         Our platform features visually appealing avatars in both male and female versions, enhancing the gaming experience with lifelike interactions. Additionally, our latest themes are not only aesthetically pleasing but also optimized for seamless performance across various devices and platforms.`,
     image: "/images/rummygame.jpeg",
-    heading: "Understanding the Basics of Call Break",
+    heading: "Understanding the Basics of Poker",
     leftSection: `Our platform features visually appealing avatars in both male and female versions, enhancing the gaming experience with lifelike interactions. Additionally, our latest themes are not only aesthetically pleasing but also optimized for seamless performance across various devices and platforms.`,
     heading_title: `As one of India’s fastest-growing online Rummy platforms, Seven Unique Rummy has gained the trust of thousands of players. With over 100,000 active users on both mobile and web platforms, we deliver an authentic Rummy experience that blends skill, strategy, and excitement. New users receive an exclusive welcome bonus, while ongoing promotions and special rewards ensure a thrilling and rewarding experience.
 `,
