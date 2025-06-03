@@ -75,7 +75,7 @@ export const Footer: React.FC = () => {
               <span>P.NO 97, Dakshinpuri Shri Kishanpura, Opposite to Somya Sky Apartments, Jagatpura, Jaipur, Rajasthan - 302017</span>
             </div>
             <div className="office_address mt-4">
-              <p style={{fontSize:"14px"}}><i className="bi bi-telephone me-2"></i> 7297026119 </p>
+              <p style={{fontSize:"14px"}}><i className="bi bi-telephone me-2"></i>01414511098</p>
             </div>
             <div className="office_address mt-4">
               <p style={{fontSize:"14px"}}><i className="bi bi-envelope me-2"></i> <a href="mailto:support@rummycircle.com">support@SevenUniqueRummy.com</a></p>
